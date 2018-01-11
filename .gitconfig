@@ -1,0 +1,24 @@
+
+[color]
+    ui = true
+
+[alias]
+    aa = add --all
+    br = branch
+    co = checkout
+    cm = commit -m
+    ca = commit --amend
+    cp = cherry-pick
+    d  = diff
+    f  = fetch
+    fo = fetch origin -p
+    st = status
+    pf = push -f
+    po = push -f origin
+    r  = remote
+    rv = remote -v
+    hard = reset --hard
+    uncommit = reset --soft HEAD~1
+    sm = submodule
+    smu = submodule update
+    smuir = submodule update --init --recursive
