@@ -1,5 +1,9 @@
 .ssh/
 .git/
+.cache/
+.config/
+.local/
+.npm/
 .bash*
 ._*
 .DS_Store*
