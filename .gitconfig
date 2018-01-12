@@ -3,22 +3,52 @@
     ui = true
 
 [alias]
+    a  = add
     aa = add --all
+    ############
     br = branch
+    ############
     co = checkout
-    cm = commit -m
-    ca = commit --amend
+    ############
+    c   = commit
+    cm  = commit -m
+    cam = commit -am
+    ca  = commit --amend
+    ############
     cp = cherry-pick
+    ############
     d  = diff
+    ############
     f  = fetch
     fo = fetch origin -p
-    st = status
+    fu = fetch upstream -p
+    ############
+    l  = log
+    lg = log --oneline --graph --decorate
+    ############
+    p  = push
     pf = push -f
     po = push -f origin
-    r  = remote
+    ############
+	rb  = rebase
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbi = rebase --interactive
+	rbs = rebase --skip
+    ############
+    ro = remote
     rv = remote -v
-    hard = reset --hard
-    uncommit = reset --soft HEAD~1
-    sm = submodule
-    smu = submodule update
+    ############
+    re  = reset
+	rh  = reset HEAD
+    reh = reset --hard
+	res = reset --soft
+    ############
+    st = status
+	sb = status -s -b
+    ############
+    sm    = submodule
+    smu   = submodule update
     smuir = submodule update --init --recursive
+    # nickname
+    uncommit = reset --soft HEAD~1
