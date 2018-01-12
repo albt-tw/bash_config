@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# auto rebase current branch to lastest master
+# auto rebase current branch to latest master
 
 if [ -n "$1" ]; then
     remote="$1"
