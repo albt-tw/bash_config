@@ -1,0 +1,9 @@
+.git/
+.bash*
+._*
+.DS_Store*
+.Spotlight-V100
+.Trashes
+Desktop.ini
+ehthumbs.db
+Thumbs.db
