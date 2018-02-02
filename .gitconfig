@@ -13,10 +13,9 @@
     ############
     co = checkout
     ############
-    c   = commit
-    cm  = commit -m
-    cam = commit -am
-    ca  = commit --amend
+    c  = commit
+    cm = commit -m
+    ca = commit --amend
     ############
     cp = cherry-pick
     ############
@@ -55,3 +54,5 @@
     smuir = submodule update --init --recursive
     # nickname
     uncommit = reset --soft HEAD~1
+    master = !sh -c 'git fetch origin -p && git update-ref refs/heads/master remotes/origin/master && echo master is now at `git log master --oneline -1`'
+    
