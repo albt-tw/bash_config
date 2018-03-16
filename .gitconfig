@@ -17,7 +17,9 @@
     cm = commit -m
     ca = commit --amend
     ############
-    cp = cherry-pick
+    cp  = cherry-pick
+    cpa = cherry-pick --abort
+    cpc = cherry-pick --continue
     ############
     d  = diff
     ############
