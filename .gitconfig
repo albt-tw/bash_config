@@ -22,6 +22,7 @@
     cpc = cherry-pick --continue
     ############
     d  = diff
+    ds = diff --stat
     ############
     f  = fetch
     fo = fetch origin -p
@@ -33,6 +34,7 @@
     p  = push
     pf = push -f
     po = push -f origin
+    ph = !sh -c 'git push -f origin `git rev-parse --abbrev-ref HEAD`'
     ############
     rb  = rebase
     rba = rebase --abort
