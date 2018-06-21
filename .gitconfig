@@ -56,7 +56,11 @@
     sm    = submodule
     smu   = submodule update
     smuir = submodule update --init --recursive
+
+    ############
+    upre = !sh -c 'git update-ref refs/heads/$1 remotes/origin/$1' -
+
     # nickname
     uncommit = reset --soft HEAD~1
-    master = !sh -c 'git fetch origin -p && git update-ref refs/heads/master remotes/origin/master && echo master is now at `git log master --oneline -1`'
-    
+    master = !sh -c 'git fetch origin -p && git update-ref refs/heads/master remotes/origin/master && echo master is now at `git log master --oneline -1`' -
+
