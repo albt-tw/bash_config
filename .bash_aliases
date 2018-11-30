@@ -1,14 +1,12 @@
 alias l='ls -F'
-alias ll='ls -lhF'
+alias ll='ls -lh'
 alias la='ls -AF'
-alias lla='ls -lhAF'
+alias lla='ls -lhA'
 
-
-if [ -n `which vim` ]; then
+if [ -x "$(command -v vim)" ]; then
     alias vi='vim'
 fi
 
-
-if [ -n `which safe-rm` ]; then
+if [ -x "$(command -v safe-rm)" ]; then
     alias rm='safe-rm'
 fi
