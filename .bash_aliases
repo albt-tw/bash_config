@@ -1,3 +1,6 @@
+alias grep='grep --color=auto'
+alias ls='ls --color=auto'
+
 alias l='ls -F'
 alias ll='ls -lh'
 alias la='ls -AF'
