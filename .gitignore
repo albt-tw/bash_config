@@ -1,3 +1,12 @@
+# os files
+._*
+.DS_Store*
+.Spotlight-V100
+.Trashes
+[Dd]esktop.ini
+ehthumbs.db
+Thumbs.db
+
 .ssh/
 .git/
 .cache/
@@ -5,10 +14,3 @@
 .local/
 .npm/
 .bash*
-._*
-.DS_Store*
-.Spotlight-V100
-.Trashes
-Desktop.ini
-ehthumbs.db
-Thumbs.db
