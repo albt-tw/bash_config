@@ -1,6 +1,8 @@
 
 [core]
     quotepath = false
+    editor = vim
+    pager = less -F -X
 
 [color]
     ui = true
